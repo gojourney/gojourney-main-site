@@ -1,0 +1,1 @@
+{"globalHeaders":{"X-Content-Type-Options":"nosniff","X-Frame-Options":"SAMEORIGIN","Referrer-Policy":"strict-origin-when-cross-origin"},"mimeTypes":{".woff2":"font/woff2"},"navigationFallback":{"rewrite":"/index.html","exclude":["/*.{css,woff2,png,html}"]}}
