@@ -8,7 +8,7 @@ body{font-family:Poppins,sans-serif;color:var(--tx);background:#fff;line-height:
 header{background:linear-gradient(160deg,#0b1e45,#14336b);color:#fff}
 .bar{max-width:980px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
 .brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-family:Lora,serif;font-weight:700;font-size:20px}
-.brand img{width:40px;height:40px;border-radius:10px}
+.brand img{height:46px;width:auto}
 nav a{color:#dbe6f7;text-decoration:none;margin-left:18px;font-size:15px;font-weight:600}
 nav a:hover,nav a[aria-current]{color:#fff;text-decoration:underline}
 .hero{max-width:980px;margin:0 auto;padding:40px 24px 56px}
