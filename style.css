@@ -8,7 +8,7 @@ body{font-family:Poppins,sans-serif;color:var(--tx);background:#fff;line-height:
 header{background:linear-gradient(160deg,#0b1e45,#14336b);color:#fff}
 .bar{max-width:980px;margin:0 auto;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
 .brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-family:Lora,serif;font-weight:700;font-size:20px}
-.brand img{height:46px;width:auto}
+.brand img{height:60px;width:auto;display:block}
 nav a{color:#dbe6f7;text-decoration:none;margin-left:18px;font-size:15px;font-weight:600}
 nav a:hover,nav a[aria-current]{color:#fff;text-decoration:underline}
 .hero{max-width:980px;margin:0 auto;padding:40px 24px 56px}
@@ -25,3 +25,12 @@ a{color:var(--blue)}
 footer{background:var(--navy);color:#cfe0f7;font-size:14px}
 footer div{max-width:980px;margin:0 auto;padding:26px 24px}footer a{color:#fff}
 .meta{font-size:14px;color:#5c6b80}
+.path{display:flex;align-items:stretch;gap:6px;margin:18px 0 8px}
+.step{flex:1 1 0;min-width:0;border:1px solid #dbe3ef;border-top:6px solid var(--mc);border-radius:12px;padding:14px;background:#fff}
+.step-n{width:32px;height:32px;border-radius:50%;background:var(--mc);color:#fff;font-weight:600;display:flex;align-items:center;justify-content:center;margin-bottom:6px}
+.step-q{font-family:Lora,serif;font-size:21px;font-weight:700;line-height:1.2;color:var(--navy)}
+.step-name{font-size:11.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--mc);margin:4px 0 8px}
+.step-d{font-size:14.5px;line-height:1.55;color:var(--tx2)}
+.step-arrow{align-self:center;color:#9aa8bf;font-size:20px}
+@media(max-width:700px){.path{flex-direction:column;gap:2px}.step-arrow{transform:rotate(90deg);margin:0}}
+.thesis{font-family:Lora,serif;font-size:clamp(20px,3.2vw,25px);font-weight:700;line-height:1.4;color:var(--navy);background:#f3f6fb;border-left:6px solid var(--blue);border-radius:8px;padding:18px 22px;margin:26px 0 4px}
