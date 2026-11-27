@@ -69,3 +69,22 @@ main.lyd a{color:var(--rust)}
 .shots-row .shot-phone img{border-radius:22px}
 @media(max-width:560px){.shots-row{gap:12px}.shots-row .shot-phone{flex:1 1 0}}
 .shot a{display:block;line-height:0}
+
+/* pathways */
+.pw-how{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:18px 0 8px}
+.pw-how>div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.pw-how b{font-family:Lora,serif;font-size:18px;color:var(--ink)}
+.pw-how p{margin:6px 0 0;font-size:15px;line-height:1.55;color:var(--tx2)}
+.pw-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin:20px 0 10px}
+.pw{background:#fff;border:1px solid var(--line);border-top:6px solid var(--pc);border-radius:12px;padding:18px 18px 20px;display:flex;flex-direction:column}
+.pw h3{margin:0;font-family:Lora,serif;font-size:21px;color:var(--ink)}
+.pw .pw-tag{margin:4px 0 8px;font-weight:600;color:var(--pc);font-size:14px}
+.pw p{font-size:15px;line-height:1.55;color:var(--tx2)}
+.pw-media{margin:10px 0}
+.pw-media iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:8px;background:#000}
+.pw-media audio{width:100%;margin-top:8px}
+.pw-soon{font-size:13.5px!important;font-style:italic;color:#6b6b70!important;margin:6px 0 10px}
+.pw-tr summary{cursor:pointer;color:var(--rust);font-weight:600;font-size:14px;margin:6px 0}
+.pw-trx{font-size:14px;line-height:1.6;color:var(--tx2)}
+.pw .pw-go{margin-top:auto;align-self:flex-start;padding:10px 20px;font-size:15px}
+.pw-note{font-size:13.5px;color:#6b6b70;margin:6px 0 0}
